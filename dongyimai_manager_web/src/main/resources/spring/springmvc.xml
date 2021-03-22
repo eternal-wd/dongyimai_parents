@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+	xsi:schemaLocation="http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+		http://dubbo.apache.org/schema/dubbo http://dubbo.apache.org/schema/dubbo/dubbo.xsd
+		http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+	<!--注意，一定要加载属性文件，要 不然在Controler里面没办法使用@Value引用属性值-->
+	<context:property-placeholder location="classpath:application.properties"/>
+	<!--扫描包路径-->
+	<context:component-scan base-package="com.offcn.sellergoods.controller"/>
+	<context:component-scan base-package="com.offcn.content.controller"/>
+
+
+
+	<mvc:annotation-driven>
+	  <mvc:message-converters register-defaults="true">
+	    <bean class="com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter">
+	      <property name="supportedMediaTypes" value="application/json"/>
+	      <property name="features">
+	        <array>
+				<!--
+					当某个属性的value为null时, 转json数据传输时是否携带此字段
+					不携带的好处是可以省去一个字段,从而节省资源
+					不携带的弊端是,如${user.name},此类引用, 若不携带name属性, 会出现运行错误 ,提示找不到name
+					此处配置是携带value为空的字段传输
+				-->
+	          <value>WriteMapNullValue</value>
+				<!--转换数据时, 对日期自动格式化-->
+	          <value>WriteDateUseDateFormat</value>
+	        </array>
+	      </property>
+	    </bean>
+	  </mvc:message-converters>
+	</mvc:annotation-driven>
+
+	<!-- 配置多媒体解析器 -->
+	<bean id="multipartResolver"
+	class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+		<property name="defaultEncoding" value="UTF-8"></property>
+			<!-- 设定文件上传的最大值 5MB，5*1024*1024 -->
+		<property name="maxUploadSize" value="5242880"></property>
+	</bean>
+
+	<!-- 引用dubbo 服务 -->
+	<dubbo:application name="dongyimai-manager-web" />
+	<!--填写zookeeper所在服务器的ip地址-->
+	<dubbo:registry address="zookeeper://127.0.0.1:2181"/>
+	<!--
+		对于调用方, package要求不像service那么严格,
+		可不写, 也可以填写自己controller的路径
+		如,此处路径可以改为com.offcn.sellergoods.controller
+	-->
+	<dubbo:annotation package="com.offcn.sellergoods.controller" />
+</beans>

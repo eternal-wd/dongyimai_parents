@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/dongyimai-cart-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dongyimai-cart-interface/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dongyimai-cart-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dongyimai-cart-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dongyimai-cart-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dongyimai-cart-web/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dongyimai-content-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dongyimai-content-interface/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dongyimai-content-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dongyimai-content-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dongyimai-order-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dongyimai-order-interface/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dongyimai-order-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dongyimai-order-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dongyimai-page-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dongyimai-page-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dongyimai-pay-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dongyimai-pay-interface/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dongyimai-pay-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dongyimai-pay-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dongyimai-portal-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dongyimai-portal-web/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dongyimai-search-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dongyimai-search-interface/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dongyimai-search-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dongyimai-search-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dongyimai-search-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dongyimai-search-web/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dongyimai-seckill-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dongyimai-seckill-interface/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dongyimai-seckill-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dongyimai-seckill-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dongyimai-seckill-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dongyimai-seckill-web/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dongyimai-solr-util/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dongyimai-solr-util/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dongyimai-user-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dongyimai-user-interface/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dongyimai-user-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dongyimai-user-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dongyimai-user-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dongyimai-user-web/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dongyimai_comon/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dongyimai_comon/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dongyimai_dao/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dongyimai_dao/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dongyimai_makecode/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dongyimai_makecode/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dongyimai_manager_web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dongyimai_manager_web/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dongyimai_pojo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dongyimai_pojo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dongyimai_sellergoods_interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dongyimai_sellergoods_interface/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dongyimai_sellergoods_service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dongyimai_sellergoods_service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dongyimai_shop_web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dongyimai_shop_web/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
